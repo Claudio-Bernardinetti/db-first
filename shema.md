@@ -13,8 +13,11 @@
 - mileage | SMALLINT, NULL
 - price | DECIMAL(7, 2), NULL // 99999,99
 - color | TEXT, NULL
+- vote | FLOAT(2,1), DEFAULT(0) // 9.9
 - is_available | TINYINT, DEFAULT(0)
-- location | VARCHAR(10), NULL
-- fuel_typr | VARCHAR(50), NULL
-- condition | VARCHAR(50), NULL
+- location | VARCHAR(10) 
+- fuel_typr | VARCHAR(50)
+
+
+- condition (not here)
 
